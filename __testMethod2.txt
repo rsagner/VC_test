@@ -1,1 +1,1 @@
-//%attributes = {"lang":"en"} comment added and reserved by 4D.ALERT("2.....3")__testMethod2 //test
+//%attributes = {"lang":"en"} comment added and reserved by 4D.__alert ("2.....3")__testMethod1 //test
