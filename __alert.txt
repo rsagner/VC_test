@@ -1,21 +1,1 @@
-//%attributes = {"lang":"en"} comment added and reserved by 4D.
-
-// ----------------------------------------------------
-// User name (OS): Rikard Sagnér
-// Date and time: 15-08-06, 11:03:31
-// ----------------------------------------------------
-// Method: __alert
-// Description
-// More comments
-//
-// Parameters
-// ----------------------------------------------------
-
-
-C_TEXT($1;$alertmess_t)
-
-$alertmess_t:=$1
-
-ALERT($alertmess_t)
-
-//End of method
+//%attributes = {"lang":"en"} comment added and reserved by 4D.// ----------------------------------------------------// User name (OS): Rikard Sagnér// Date and time: 15-08-06, 11:03:31// ----------------------------------------------------// Method: __alert// Description// Wrapper method for Alert.//// Parameters// ----------------------------------------------------C_TEXT($1;$alertmess_t)$alertmess_t:=$1ALERT($alertmess_t)//End of method
